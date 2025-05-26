@@ -1,5 +1,5 @@
 <html>
-<BR>Hi I am Swati Parmar</BR>
-<br>Education Background</br>
-<Br>TEch Skills</br>
+<BR>Hi I am Veera Vardhan</BR>
+<br>B-Tech in CSE</br>
+<Br>C,java,python,sql,html,css</br>
 </html>
