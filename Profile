@@ -1,5 +1,5 @@
 <html>
-<BR>Hi I am Swati Parmar</BR>
-<br>Education Background</br>
-<Br>TEch Skills</br>
+<BR>Hi I am Srisha reddy</BR>
+<br>completed btech in 2025/br>
+<Br>Cmr college of engineering and technology</br>
 </html>
