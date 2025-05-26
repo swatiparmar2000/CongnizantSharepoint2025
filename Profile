@@ -1,5 +1,5 @@
 <html>
-<BR>Hi I am Swati Parmar</BR>
-<br>Education Background</br>
-<Br>TEch Skills</br>
+<BR>Hi I am Bingi Nithyasri</BR>
+<br>I completed my B.Tech in CMR college of engineering and technology in the stream of computer science and  I have completed my internmediate in narayana junior college</br>
+<Br>I am good at python,html,css,c</br>
 </html>
