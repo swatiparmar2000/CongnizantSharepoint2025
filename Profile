@@ -1,5 +1,5 @@
 <html>
-<BR>Hi I am Swati Parmar</BR>
-<br>Education Background</br>
-<Br>TEch Skills</br>
+<BR>Hi I am Yeshwanth D</BR>
+<br>B.Tech CSE - AIML</br>
+<Br>Python, ML Algorithms, SQL, OOPs, C/C++</br>
 </html>
