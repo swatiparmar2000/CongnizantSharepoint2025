@@ -1,5 +1,5 @@
 <html>
-<BR>Hi I am Swati Parmar</BR>
-<br>Education Background</br>
-<Br>TEch Skills</br>
+<BR>Hi I Mohammed Naveed Baig</BR>
+<br>B.Tech</br>
+<Br>CPP, Python, HTML, CSS, JS, MYSQL</br>
 </html>
