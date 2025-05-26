@@ -2,6 +2,11 @@
 <BR>Hi I am Vinay K</BR>
 <br>Information Science and Engineering</br>
 <Br>C</br>
- <Br>C</br>
-
+<Br>C++</br>
+<Br>Java</br>
+<Br>Python</br>
+<Br>HTML</br>
+<Br>CSS</br>
+<Br>JavaScript</br>
+<Br>MySQL</br>
 </html>
