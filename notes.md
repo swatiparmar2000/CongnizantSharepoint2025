@@ -1,103 +1,159 @@
-# Git Commands 
+# Git Commands
+
 ---
 
-### `git init`
+## `git init`
 
-```bash
 $ git init
-Description: Initializes a new Git repository in the current folder.
 
-git clone
-bash
+yaml
 Copy
 Edit
+**Description**: Initializes a new Git repository in the current folder.
+
+---
+
+## `git clone`
+
 $ git clone <repo-url>
-Description: Clones a repository from a remote server like GitHub.
 
-git add
-bash
+yaml
 Copy
 Edit
+**Description**: Clones a repository from a remote server like GitHub.
+
+---
+
+## `git add`
+
 $ git add <filename>
 $ git add .
-Description: Adds changes to the staging area.
 
-git commit
-bash
+yaml
 Copy
 Edit
+**Description**: Adds changes to the staging area.
+
+---
+
+## `git commit`
+
 $ git commit -m "your message"
-Description: Saves staged changes with a message.
 
-git push
-bash
+yaml
 Copy
 Edit
+**Description**: Saves staged changes with a message.
+
+---
+
+## `git push`
+
 $ git push origin main
-Description: Pushes committed changes to a remote repository.
 
-git pull
-bash
+yaml
 Copy
 Edit
+**Description**: Pushes committed changes to a remote repository.
+
+---
+
+## `git pull`
+
 $ git pull origin main
-Description: Fetches and merges changes from a remote repository.
 
-git status
-bash
+yaml
 Copy
 Edit
+**Description**: Fetches and merges changes from a remote repository.
+
+---
+
+## `git status`
+
 $ git status
-Description: Shows the current state of the working directory.
 
-git branch
-bash
+yaml
 Copy
 Edit
+**Description**: Shows the current state of the working directory.
+
+---
+
+## `git branch`
+
 $ git branch
 $ git branch <branchname>
-Description: Lists, creates, or deletes branches.
 
-git checkout
-bash
+yaml
 Copy
 Edit
+**Description**: Lists, creates, or deletes branches.
+
+---
+
+## `git checkout`
+
 $ git checkout <branchname>
-Description: Switches between branches or restores files.
 
-git merge
-bash
+yaml
 Copy
 Edit
+**Description**: Switches between branches or restores files.
+
+---
+
+## `git merge`
+
 $ git merge <branchname>
-Description: Combines one branch into another.
 
-git reset
-bash
+yaml
 Copy
 Edit
+**Description**: Combines one branch into another.
+
+---
+
+## `git reset`
+
 $ git reset <file>
 $ git reset --hard HEAD~1
-Description: Unstages or reverts commits.
 
-git log
-bash
+yaml
 Copy
 Edit
+**Description**: Unstages or reverts commits.
+
+---
+
+## `git log`
+
 $ git log
-Description: Shows commit history.
 
-git config
-bash
+yaml
 Copy
 Edit
+**Description**: Shows commit history.
+
+---
+
+## `git config`
+
 $ git config --global user.name "Your Name"
 $ git config --global user.email "you@example.com"
-Description: Sets configuration for user details, editor, etc.
 
-git revert
-bash
+yaml
 Copy
 Edit
+**Description**: Sets configuration for user details, editor, etc.
+
+---
+
+## `git revert`
+
 $ git revert <commit-hash>
-Description: Reverses a specific commit by creating a new commit.
+
+pgsql
+Copy
+Edit
+**Description**: Reverses a specific commit by creating a new commit.
