@@ -1,5 +1,0 @@
-<html>
-<BR>Hi I am Swati Parmar</BR>
-<br>Education Background</br>
-<Br>TEch Skills</br>
-</html>
