@@ -1,0 +1,11 @@
+git add <file> – Stage changes for commit.
+git commit -m "message" – Commit staged changes with a message.
+git log – Show commit history.
+git diff – Show differences between commits, branches, or working directory.
+git status – Show the working tree status.
+git pull – Fetch and merge changes from the remote repository.
+git push – Upload local commits to a remote repository.
+git clone <repo-url> – Clone a remote repository.
+git revert <commit> – Create a new commit that undoes the changes from a previous one.
+git checkout -b <branch> – Create and switch to a new branch.
+git merge <branch> – Merge a branch into the current one.
