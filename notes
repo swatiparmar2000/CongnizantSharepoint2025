@@ -1,0 +1,43 @@
+1. Initialize Repository
+git init
+Starts a new Git repository in your project folder.
+
+2. Clone Repository
+git clone <url>
+Copies an existing remote repository to your local machine.
+
+3. Check Status
+git status
+Shows changed files and their states.
+
+4. Add Files
+git add .
+Stages changes for the next commit.
+
+5. Commit Changes
+git commit -m "message"
+Saves staged changes with a message.
+
+6. Push to Remote
+git push
+Sends your commits to the remote repository.
+
+7. Pull from Remote
+git pull
+Fetches and merges changes from the remote repository.
+
+8. Create Branch
+git branch <name>
+Creates a new branch for separate work.
+
+9. Switch Branch
+git checkout <name>
+Switches to the specified branch.
+
+10. Merge Branch
+git merge <name>
+Combines another branch into the current one
+
+11. Undo Changes
+git reset, git checkout -- <file>
+Used to unstage or discard local changes.
