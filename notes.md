@@ -2,7 +2,7 @@
 
 ---
 
-### 1. `git init`
+$ `git init`
 
 - **Description**: Initializes a new Git repository in the current folder.  
 - **Usage**: `git init`  
