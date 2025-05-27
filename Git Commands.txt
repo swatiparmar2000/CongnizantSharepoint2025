@@ -1,0 +1,18 @@
+Git Commands :
+
+1. add      : "git add filename" adds the files to staging area.
+2. add .    : "git add ." adds all the files at a time to staging area.
+3. commit   : "git commit -m "message"" saves the files and ready to push on to the repository.
+4. status   : "git status" Shows the modified files
+5. diff     : "git diff" shows unstaged files.
+6. branch   : "git branch branchname" creates a new branch
+7. checkout : "git checkout branchname" switches to different branches.
+8. merge    : "git merge branchname" merges the branches
+9. log      : "git log" shows all commits
+10. init    : "git init" initialises a new repository in local mechine.
+11. clone   : "git clone" copy the repository to local machine
+12. reset   : "git reset --hard" clear staging area, rewrite working tree from specified commit
+13. push    : "git push origin branchname" uploads the files and modification to repository.
+14. pull    : "git pull origin branchname" downloads the repository files to local machine.
+15. fork    : "fork" is used to copy the repository of other user.
+16. config  : "git config --global user.name username" set a name that is identifiable for credit    when review version history
