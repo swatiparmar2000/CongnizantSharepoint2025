@@ -1,19 +1,13 @@
-1>open new folder in vscode
-
-2> go to terminal 
-
-3> git clone https://github.com/swatiparmar2000/CongnizantSharepoint2025
-
-4> cd CongnizantSharepoint2025
-
-5> git checkout -b "your name"
-
-6> edit the profile file .
-
-7> save
-
-8> git add .
-
-9> git commit -m "my data added"
-
-10>git push origin yourbrachname
+git clone --------URL-------- <---Clones a remote repository to your local machine.
+git status <---Shows the current state of the working directory and staging area.
+git add or git add . <---Stages changes to be committed.
+git commit -m "message" <---Commits the staged changes with a message.
+git push origin <---Pushes committed changes to the remote branch.
+git pull <---Fetches and merges changes from the remote repository.
+git merge <---Merges another branch into your current branch.
+git checkout <---Switches to another branch.
+git push --force <---Forces a push that overwrites remote changes.
+git log <---Shows the history of commits.
+git branch <---Lists all branches.
+git branch <---Creates a new branch.
+git checkout -b <---Creates and switches to a new branch
