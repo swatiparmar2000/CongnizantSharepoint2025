@@ -1,0 +1,30 @@
+open project in vs code
+git init
+GitHub repo created
+git -remote add origin
+git branch -m main
+git add
+git commit m "adding firsttime"
+git push origin main
+
+------------------------------------------------
+to merge main
+ls
+git add .
+git commit -m "modified profile"
+git status
+git push origin
+ 
+go to GitHub merge
+------------------------------------------------
+ctrl-z
+
+git status
+git checkout main
+git add Gitassignment
+git commit -m "git assignment file changed"
+git reset Head~1(to go 1 step back)
+git status
+git log(see all changes)
+git rsest --hard(url)
+git push origin main
