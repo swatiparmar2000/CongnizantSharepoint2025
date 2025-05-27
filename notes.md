@@ -6,7 +6,7 @@
 
 $ git init
 
-**Description**: Initializes a new Git repository in the current folder.
+ Initializes a new Git repository in the current folder.
 
 ---
 
@@ -14,7 +14,7 @@ $ git init
 
 $ git clone <repo-url>
 
-**Description**: Clones a repository from a remote server like GitHub.
+ Clones a repository from a remote server like GitHub.
 
 ---
 
@@ -23,7 +23,7 @@ $ git clone <repo-url>
 $ git add <filename>
 $ git add .
 
-**Description**: Adds changes to the staging area.
+Adds changes to the staging area.
 
 ---
 
@@ -32,7 +32,7 @@ $ git add .
 $ git commit -m "your message"
 
 
-**Description**: Saves staged changes with a message.
+ Saves staged changes with a message.
 
 ---
 
@@ -40,7 +40,7 @@ $ git commit -m "your message"
 
 $ git push origin main
 
-**Description**: Pushes committed changes to a remote repository.
+ Pushes committed changes to a remote repository.
 
 ---
 
@@ -48,7 +48,7 @@ $ git push origin main
 
 $ git pull origin main
 
-**Description**: Fetches and merges changes from a remote repository.
+ Fetches and merges changes from a remote repository.
 
 ---
 
@@ -56,7 +56,7 @@ $ git pull origin main
 
 $ git status
 
-**Description**: Shows the current state of the working directory.
+ Shows the current state of the working directory.
 
 ---
 
@@ -65,7 +65,7 @@ $ git status
 $ git branch
 $ git branch <branchname>
 
-**Description**: Lists, creates, or deletes branches.
+ Lists, creates, or deletes branches.
 
 ---
 
@@ -73,7 +73,7 @@ $ git branch <branchname>
 
 $ git checkout <branchname>
 
-**Description**: Switches between branches or restores files.
+ Switches between branches or restores files.
 
 ---
 
@@ -81,7 +81,7 @@ $ git checkout <branchname>
 
 $ git merge <branchname>
 
-**Description**: Combines one branch into another.
+ Combines one branch into another.
 
 ---
 
@@ -90,7 +90,7 @@ $ git merge <branchname>
 $ git reset <file>
 $ git reset --hard HEAD~1
 
-**Description**: Unstages or reverts commits.
+ Unstages or reverts commits.
 
 ---
 
@@ -98,7 +98,7 @@ $ git reset --hard HEAD~1
 
 $ git log
 
-**Description**: Shows commit history.
+ Shows commit history.
 
 ---
 
@@ -107,7 +107,7 @@ $ git log
 $ git config --global user.name "Your Name"
 $ git config --global user.email "you@example.com"
 
-**Description**: Sets configuration for user details, editor, etc.
+ Sets configuration for user details, editor, etc.
 
 ---
 
@@ -115,4 +115,4 @@ $ git config --global user.email "you@example.com"
 
 $ git revert <commit-hash>
 
-**Description**: Reverses a specific commit by creating a new commit.
+ Reverses a specific commit by creating a new commit.
