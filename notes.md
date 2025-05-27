@@ -6,9 +6,6 @@
 
 $ git init
 
-yaml
-Copy
-Edit
 **Description**: Initializes a new Git repository in the current folder.
 
 ---
@@ -17,9 +14,6 @@ Edit
 
 $ git clone <repo-url>
 
-yaml
-Copy
-Edit
 **Description**: Clones a repository from a remote server like GitHub.
 
 ---
@@ -29,9 +23,6 @@ Edit
 $ git add <filename>
 $ git add .
 
-yaml
-Copy
-Edit
 **Description**: Adds changes to the staging area.
 
 ---
@@ -40,9 +31,7 @@ Edit
 
 $ git commit -m "your message"
 
-yaml
-Copy
-Edit
+
 **Description**: Saves staged changes with a message.
 
 ---
@@ -51,9 +40,6 @@ Edit
 
 $ git push origin main
 
-yaml
-Copy
-Edit
 **Description**: Pushes committed changes to a remote repository.
 
 ---
@@ -62,9 +48,6 @@ Edit
 
 $ git pull origin main
 
-yaml
-Copy
-Edit
 **Description**: Fetches and merges changes from a remote repository.
 
 ---
@@ -73,9 +56,6 @@ Edit
 
 $ git status
 
-yaml
-Copy
-Edit
 **Description**: Shows the current state of the working directory.
 
 ---
@@ -85,9 +65,6 @@ Edit
 $ git branch
 $ git branch <branchname>
 
-yaml
-Copy
-Edit
 **Description**: Lists, creates, or deletes branches.
 
 ---
@@ -96,9 +73,6 @@ Edit
 
 $ git checkout <branchname>
 
-yaml
-Copy
-Edit
 **Description**: Switches between branches or restores files.
 
 ---
@@ -107,9 +81,6 @@ Edit
 
 $ git merge <branchname>
 
-yaml
-Copy
-Edit
 **Description**: Combines one branch into another.
 
 ---
@@ -119,9 +90,6 @@ Edit
 $ git reset <file>
 $ git reset --hard HEAD~1
 
-yaml
-Copy
-Edit
 **Description**: Unstages or reverts commits.
 
 ---
@@ -130,9 +98,6 @@ Edit
 
 $ git log
 
-yaml
-Copy
-Edit
 **Description**: Shows commit history.
 
 ---
@@ -142,9 +107,6 @@ Edit
 $ git config --global user.name "Your Name"
 $ git config --global user.email "you@example.com"
 
-yaml
-Copy
-Edit
 **Description**: Sets configuration for user details, editor, etc.
 
 ---
@@ -153,7 +115,4 @@ Edit
 
 $ git revert <commit-hash>
 
-pgsql
-Copy
-Edit
 **Description**: Reverses a specific commit by creating a new commit.
