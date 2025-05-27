@@ -1,0 +1,19 @@
+1>open new folder in vscode
+
+2> go to terminal 
+
+3> git clone https://github.com/swatiparmar2000/CongnizantSharepoint2025
+
+4> cd CongnizantSharepoint2025
+
+5> git checkout -b "your name"
+
+6> edit the profile file .
+
+7> save
+
+8> git add .
+
+9> git commit -m "my data added"
+
+10>git push origin yourbrachname
