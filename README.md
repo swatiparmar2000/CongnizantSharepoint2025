@@ -1,8 +1,16 @@
 # CongnizantSharepoint2025
 
-Hi All ,
-<br>This is repo created to demonstrate branching concept 
-
-<br>So create a branch of this repo 
-<br>to create your new branch and join that branch 
-<br>git checkout -b "yourname"<br>
+Hi All,
+<br><br>
+To create your new branch and switch to it, use the following command:
+<br>
+git checkout -b "Satvika"
+<br>
+This will create a branch named Satvika and automatically switch you to it.
+<br><br>
+About Me:
+<br>
+Name: Satvika
+<br>
+Skills: SQL, Python, Data Science
+<br>
