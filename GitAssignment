@@ -1,2 +1,16 @@
 <br>This is Assignment on Git 
 <br>List All the Command learnt in the session  wih their Explaination
+
+git init - to initialize an existing directory as a Git repository
+git add  - to add a file (stage)
+git commit -m "message"  - to commit your staged content as a new commit snapshot
+git push - to transmit local branch commits to the repository
+git clone "url" - retrieve an entire repository from a hosted location via URL
+git config --global user.name “usename” - helps to config user git account with local system
+git config --global user.email “email id” - helps to config user git account with local system
+git status - to check the status
+git checkout name - to change the branch
+git log - shows all commits in the current branch
+git merge - help to merge the data
+git reset --hard "commit id" - resets branch to a specific commit
+
