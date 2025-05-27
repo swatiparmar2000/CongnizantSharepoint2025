@@ -9,3 +9,5 @@ git clone <repo-url> – Clone a remote repository.
 git revert <commit> – Create a new commit that undoes the changes from a previous one.
 git checkout -b <branch> – Create and switch to a new branch.
 git merge <branch> – Merge a branch into the current one.
+git branch – List, create, or delete branches.
+git checkout <branch> – Switch to another branch.
