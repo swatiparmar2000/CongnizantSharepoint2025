@@ -1,5 +1,0 @@
-<html>
-<BR>Hi I am Swati </BR>
-<br>BSC Phys & IT GNIIT</br>
-<Br>Sharepoint ,c#,.net ,Angular,react,M365</br>
-</html>
