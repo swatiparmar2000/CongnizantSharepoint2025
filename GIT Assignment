@@ -1,0 +1,41 @@
+GIT Assignment
+
+git status - It shows what is the current status of the project.
+
+git clone url - It copies the entire project which is on the GITHub to your local
+
+To push a file to GitHub steps
+create a repo in Github
+create a file in VScode
+git add file_name
+git commit -m "message"
+git push origin main
+
+To Push a project to GitHub steps
+create a repo in Github
+open the project in VScode
+git init
+git remote add origin url
+git add .
+git commit -m "message"
+git push origin main
+
+To create the Branch of a repo steps
+open a folder in VScode
+git clone url
+cd filename
+git checkout -b branch_name
+git add .
+git commit -m "message"
+git push origin branch_name
+
+To merge with branch
+git checkout branch_name
+git merge main
+git add .
+git commit -m "message"
+git push origin branch_name
+
+The reset commands
+git reset head~1 - it will reset the branch to previous commit
+git reset --hard - it will reset to previous commit
