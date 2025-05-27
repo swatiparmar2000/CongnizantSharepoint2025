@@ -1,0 +1,23 @@
+Git Assignment
+-------------------
+1. git init
+2. git clone
+3. git status
+4. git add "file name"
+5. git commit -m " "
+6. git push origin
+7. git pull origin
+8. git reset 
+9. git reset --hard
+10.git log
+11.git rm "file name"
+12.git merge
+13.git checkout
+14.git branch "branch name"
+15.git push origin "name " --force
+16.git config --global user.name " "
+17.git config --global user.email "" 
+18.git config --global add safe.directory " "
+19.git add .
+20.git diff
+21.git diff "branch1" "branch2"
