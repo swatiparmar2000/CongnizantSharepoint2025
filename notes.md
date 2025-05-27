@@ -1,119 +1,123 @@
-# My notes for Git & GitHub
+# 🚀 Git Commands Cheat Sheet
 
 ---
 
-## What is Git?
+### 1. `git init`
 
-Git is a version control tool that helps us save our code. It keeps all the changes we make to code or any project files that we have.
-
----
-
-## What is GitHub?
-
-GitHub is a website. It saves our code online. So we can share it and work with others.
+- **Description**: Initializes a new Git repository in the current folder.  
+- **Usage**: `git init`  
+- **Purpose**: Starts tracking version control.
 
 ---
 
-## Common Git Stuff
+### 2. `git clone`
 
-Common Git Stuff
-git init
-bash
-Copy
-Edit
-$ git init
-This command starts Git in our folder. It makes a hidden folder called .git where Git keeps track of changes.
+- **Description**: Clones a repository from a remote server like GitHub.  
+- **Usage**: `git clone <repo-url>`  
+- **Purpose**: Makes a local copy of an existing remote repository.
 
-git clone
-bash
-Copy
-Edit
-$ git clone <repo-url>
-This command downloads a project and its history from a remote repository.
+---
 
-git add
-bash
-Copy
-Edit
-$ git add <filename>
-$ git add .
-Adds changes to the staging area. The . adds all modified files.
+### 3. `git add`
 
-git commit
-bash
-Copy
-Edit
-$ git commit -m "your message"
-Saves the staged changes with a message. This creates a new snapshot in Git history.
+- **Description**: Adds changes to the staging area.  
+- **Usage**:  
+  - `git add <filename>`  
+  - `git add .`  
+- **Purpose**: Prepares files to be committed.
 
-git push
-bash
-Copy
-Edit
-$ git push origin main
-Uploads your local commits to the remote repository (like GitHub).
+---
 
-git pull
-bash
-Copy
-Edit
-$ git pull origin main
-Downloads and merges the latest changes from the remote repository.
+### 4. `git commit`
 
-git status
-bash
-Copy
-Edit
-$ git status
-Shows the status of your working directory — which files are modified, staged, or untracked.
+- **Description**: Saves staged changes with a message.  
+- **Usage**: `git commit -m "your message"`  
+- **Purpose**: Creates a version snapshot of the staged files.
 
-git branch
-bash
-Copy
-Edit
-$ git branch
-$ git branch <branchname>
-Lists existing branches or creates a new one.
+---
 
-git checkout
-bash
-Copy
-Edit
-$ git checkout <branchname>
-Switches to the specified branch.
+### 5. `git push`
 
-git merge
-bash
-Copy
-Edit
-$ git merge <branchname>
-Merges changes from the specified branch into the current branch.
+- **Description**: Pushes committed changes to a remote repository.  
+- **Usage**: `git push origin main`  
+- **Purpose**: Syncs local commits with remote repository.
 
-git reset
-bash
-Copy
-Edit
-$ git reset <file>
-$ git reset --hard HEAD~1
-Unstages or undoes commits. Use with caution, especially --hard.
+---
 
-git log
-bash
-Copy
-Edit
-$ git log
-Shows the commit history in reverse chronological order.
+### 6. `git pull`
 
-git config
-bash
-Copy
-Edit
-$ git config --global user.name "Your Name"
-$ git config --global user.email "you@example.com"
-Sets your name and email address for commit authorship.
+- **Description**: Fetches and merges changes from a remote repository.  
+- **Usage**: `git pull origin main`  
+- **Purpose**: Updates your local branch with remote changes.
 
-git revert
-bash
-Copy
-Edit
-$ git revert <commit-hash>
+---
+
+### 7. `git status`
+
+- **Description**: Shows the current state of the working directory.  
+- **Usage**: `git status`  
+- **Purpose**: Helps see which files are staged, modified, or untracked.
+
+---
+
+### 8. `git branch`
+
+- **Description**: Lists, creates, or deletes branches.  
+- **Usage**:  
+  - `git branch`  
+  - `git branch <branchname>`  
+- **Purpose**: Helps organize features/fixes.
+
+---
+
+### 9. `git checkout`
+
+- **Description**: Switches between branches or restores files.  
+- **Usage**: `git checkout <branchname>`  
+- **Purpose**: Move between branches.
+
+---
+
+### 10. `git merge`
+
+- **Description**: Combines one branch into another.  
+- **Usage**: `git merge <branchname>`  
+- **Purpose**: Integrates changes from one branch into the current branch.
+
+---
+
+### 11. `git reset`
+
+- **Description**: Unstages or reverts commits.  
+- **Usage**:  
+  - `git reset <file>`  
+  - `git reset --hard HEAD~1`  
+- **Purpose**: Used to undo changes.
+
+---
+
+### 12. `git log`
+
+- **Description**: Shows commit history.  
+- **Usage**: `git log`  
+- **Purpose**: Tracks the changes made over time.
+
+---
+
+### 13. `git config`
+
+- **Description**: Sets configuration for user details, editor, etc.  
+- **Usage**:  
+  - `git config --global user.name "Your Name"`  
+  - `git config --global user.email "you@example.com"`  
+- **Purpose**: Ensures correct authorship on commits.
+
+---
+
+### 14. `git revert`
+
+- **Description**: Reverses a specific commit by creating a new commit.  
+- **Usage**: `git revert <commit-hash>`  
+- **Purpose**: Safely undoes a commit without altering commit history.
+
+---
