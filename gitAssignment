@@ -11,3 +11,4 @@ git checkout -b <branch> – Create and switch to a new branch.
 git merge <branch> – Merge a branch into the current one.
 git branch – List, create, or delete branches.
 git checkout <branch> – Switch to another branch.
+git init
